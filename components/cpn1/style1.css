@@ -1,0 +1,38 @@
+
+.nav2 li{
+    list-style: none;
+    padding:15px 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav2 li:hover{
+    color:#e6eada;
+    font-size: 19px;
+    cursor:pointer;
+}
+ul{
+    display:flex;
+
+}
+
+.nav1{
+    font-size: 20px;
+    padding-top: 8px;
+    position: absolute;
+    left:0;
+}
+.nav2{
+    float:right;
+    position: absolute;
+    right: 30px;
+    color:#5FFBF1;
+}
+img{
+    padding-right: 3px;
+    margin-top: -32px;
+    /* margin-bottom: 5px; */
+}
+.nav1{
+    /* color: #D16BA5; */
+    margin-left: 15px;
+}

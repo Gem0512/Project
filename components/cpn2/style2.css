@@ -1,0 +1,198 @@
+/* img{
+    opacity: 1;  
+    filter: alpha(opacity=50);
+} */
+.img-responsive{
+    margin: 30px 40px;
+    filter: drop-shadow(8px 2px 10px #D16BA5);
+    
+}
+.container{
+    font-size: 18px;
+    display: flex;
+    /* margin: 30px 15px; */
+    color:aliceblue;
+
+}
+.right{
+    margin: 50px 100px;
+
+}
+.right-profile-1{
+    list-style: none;
+margin-bottom: 40px;
+border-bottom: 1px solid aliceblue ;
+width: 900px;
+}
+.right-profile-2  {
+    list-style: none;
+    margin-bottom: 40px;
+    border-bottom: 1px solid aliceblue ;
+    width: 900px;
+    padding-bottom: 8px;
+}
+.right-profile-3  {
+    list-style: none;
+    margin-bottom: 40px;
+    border-bottom: 1px solid aliceblue ;
+    width: 900px;
+}
+.html {
+    height:30px;
+    width: 95%;
+    background: linear-gradient(to left, #ee4faa, #ee70bd, #ee8bce, #eea4dc, #efbce8, #e6c1ed, #dec6ef, #d7cbf0, #bdc2ee, #9cbaea, #76b2e2, #44abd6);     color: #EE4FAA;
+     text-align: right;
+     border-radius: 20px;
+    }
+.right-profile-2-item1{
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+    /* height:25px; */
+
+}
+.css {
+    border-radius: 20px;
+    width: 90%;
+    background: linear-gradient(to right, #e1a2c6, #e4add0, #e7b7d9, #eac2e1, #edcce9, #e8d2f2, #e2d7f9, #ddddfe, #c9e0ff, #b5e4fe, #a7e6f3, #a4e7e3);
+    color: #EE4FAA;
+         text-align: right;
+    }
+.script {
+    width: 65%;
+    background: linear-gradient(to right, #e1a2c6, #e4add0, #e7b7d9, #eac2e1, #edcce9, #e8d2f2, #e2d7f9, #ddddfe, #c9e0ff, #b5e4fe, #a7e6f3, #a4e7e3);
+    color: #EE4FAA;
+            text-align: right;
+     border-radius: 20px;
+
+    }
+.right-profile-2 p{
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+li{
+    padding-bottom: 8px;
+}
+.img-responsive:hover{
+    height: 502px;
+    filter: drop-shadow(8px 2px 10px #a437b3);
+}
+.intro:hover{
+    background-image: linear-gradient(to right, #ee4faa, #ee70bd, #ee8bce, #eea4dc, #efbce8, #e6c1ed, #dec6ef, #d7cbf0, #bdc2ee, #9cbaea, #76b2e2, #44abd6);
+    /* height:30px; */
+}
+ul{
+    margin-left: -80px;
+    text-shadow: 5px 2px 4px grey;
+}
+
+
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .container1{
+    width: 100%;
+    margin: 0 auto;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #f3b0ff;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color: #ffcc33;
+  }
+  .bar.back::before{
+    background-color: #a6cfe3;
+  }
+  
+  .bar.learning::before{
+    width: calc(20% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(40% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(60% - 10px);
+  }
+  .bar.advanced::before{
+    width: calc(80% - 10px);
+  }
+  .bar.expert::before{
+    width: calc(100% - 10px);
+  }
+  .container1{
+    border-bottom: 1px solid white;
+    margin-top: 40px;
+  }
+
+
+
+
+  .bar.learning1::before{
+    width: calc(80% - 10px);
+  }
+  .bar.basic1::before{
+    width: calc(75% - 10px);
+  }
+  .bar.intermediate1::before{
+    width: calc(50% - 10px);
+  }
+  .bar.advanced1::before{
+    width: calc(40% - 10px);
+  }
+  .bar.expert1::before{
+    width: calc(65% - 10px);
+  }
+.left p{
+  margin-left: 40px;
+  padding-top: 15px;
+}
+.left span{
+  margin-bottom: 8px;
+  margin-left: 35px;
+  /* color: #EE4FAA; */
+  text-shadow: 2px 2px 4px rgb(199, 174, 174);
+}
+.left p{
+  color: #f2e4ec;
+}
